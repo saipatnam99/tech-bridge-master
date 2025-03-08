@@ -8,8 +8,14 @@ import React from "react"
 const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
-  const post = blogdata.find((post) => post.id === parseInt(id))
 
+  // Ensure id is valid before finding the post
+  const post = id ? blogdata.find((post) => post.id === parseInt(id)) : null
+
+  // Handle loading state
+  if (!post) {
+    return <p>Loading...</p>  // or a custom loading spinner
+  }
   return (
     <>
       <Head>
