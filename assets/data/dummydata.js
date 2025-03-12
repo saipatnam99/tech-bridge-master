@@ -4,17 +4,17 @@ import { VscFileSubmodule } from "react-icons/vsc"
 import { BiUser } from "react-icons/bi"
 
 export const home = [
-  {
-    icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
-  },
+  // {
+  //   icon: <AiOutlineCalendar size={25} />,
+  //   title: "10+ years of market experience",
+  // },
   {
     icon: <TfiRulerPencil size={25} />,
     title: "Unique technologies & modern approach ",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "10+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -146,28 +146,28 @@ export const blogdata = [
     title: "Seamless and Strategic Positioning",
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    date: "MARCH 1, 2025",
   },
   {
     id: 2,
     title: "Turning ideas into reality through excellence and dedication.",
     cover: "../images/b2.jpg",
     catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
+    date: "FEBRUARY 20, 2025",
   },
   {
     id: 3,
     title: "Creating a True VR Experience from Scratch—Innovation at Its Core",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
+    date: "FEBRUARY 10, 2025",
   },
   {
     id: 4,
     title: "Flexibility, stability, and precision in design",
     cover: "../images/b4.jpg",
     catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
+    date: "FEBRUARY 22, 2025",
   },
 ]
 export const teamdata = [
