@@ -17,7 +17,7 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
-    overflow-x: hidden !important;
+    overflow-x: visible !important;
   }
   .hero-title {
     font-size: $xll-3;

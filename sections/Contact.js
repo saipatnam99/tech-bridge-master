@@ -21,7 +21,7 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>+91-8179257250</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
@@ -31,13 +31,13 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@techbridge.com</h3>
+                  <h3>info@techbridz.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@techbridge.com</h3>
-                  <span>Career at TechBridge</span>
+                  <h3>hr@techbridz.com</h3>
+                  <span>Career at TechBridz</span>
                 </div>
               </div>
               <ul>
