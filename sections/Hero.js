@@ -6,13 +6,16 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import Image from "next/image"
+import logo from "@/assets/images/bridz.jpg"
 
 const Hero = () => {
   return (
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='TechBridge' caption='' className='logobg' />
+          {/* <TitleLogo title='TechBridge' caption='' className='logobg' /> */}
+           {/* <Image src={logo} alt="Tech Logo" width={150} height={50} priority className="logobg"/> */}
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>
@@ -26,8 +29,8 @@ const Hero = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
-          </div>
+          <p>Maintain a strong foundation by staying adaptable and focused. Effective planning and persistence lead to success, no matter the challenges. Keep learning, stay motivated, and embrace opportunities for growth.</p>
+                    </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
               <div className='box' key={i}>

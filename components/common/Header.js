@@ -4,6 +4,8 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+import logo from "@/assets/images/bridz.jpg"
+import Image from "next/image";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -17,9 +19,10 @@ const Header = () => {
     <>
       <header>
         <div className='container'>
-          <div className='logo'>
+          <div className='p-2'>
             <Link href='/'>
-              <TitleLogo title='TechBridge' caption='' className='logomin' />
+              {/* <TitleLogo title='`${tech}`' caption='' className='logomin' /> */}
+              <Image src={logo} alt="Tech Logo" width={150} height={50} priority />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='TechBridge' caption='' className='logobg' />
+              <TitleLogo title='TechBridz' caption='' className='logobg' />
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
@@ -85,10 +85,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2025 TECHBRIDGE. ALL RIGHTS RESERVED.</span>
+              <span>© 2025 TECHBRIDZ. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>TECHBRIDGE COMPANY</span>
+              <span>TECHBRIDZ COMPANY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

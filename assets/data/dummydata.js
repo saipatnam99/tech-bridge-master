@@ -53,28 +53,27 @@ export const testimonial = [
     name: "Alexander Black",
     cover: "../images/e1.jpg",
     post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
-  },
+    desc: "Working with TechBridz has been an incredible experience. Their strategic approach and industry expertise helped streamline our business operations. The team is highly professional, responsive, and dedicated to delivering results. I highly recommend them to any organization looking for expert consulting services."  },
   {
     id: 2,
     name: "Diana Green",
     cover: "../images/e2.jpg",
     post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    desc: "At the fermentation, he is at the edge of the lake with the greatest mass of the body. At ornare ex, quis fringilla tortor. Always carry it as a connection. He does not want the valleys to be high. Always at the highest level of education",
   },
   {
     id: 3,
     name: "Alexander Black",
     cover: "../images/e3.jpg",
     post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    desc: "Working with TechBridz has been an incredible experience. Their strategic approach and industry expertise helped streamline our business operations. The team is highly professional, responsive, and dedicated to delivering results. I highly recommend them to any organization looking for expert consulting services."  
   },
   {
     id: 4,
     name: "Diana Green",
     cover: "../images/e4.jpg",
     post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    desc: "At the fermentation, he is at the edge of the lake with the greatest mass of the body. At ornare ex, quis fringilla tortor. Always carry it as a connection. He does not want the valleys to be high. Always at the highest level of education",
   },
 ]
 export const showcase = [
@@ -144,28 +143,28 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "Seamless and Strategic Positioning",
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "Turning ideas into reality through excellence and dedication.",
     cover: "../images/b2.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "Creating a True VR Experience from Scratch—Innovation at Its Core",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "Flexibility, stability, and precision in design",
     cover: "../images/b4.jpg",
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
