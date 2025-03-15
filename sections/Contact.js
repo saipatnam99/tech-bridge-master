@@ -26,12 +26,12 @@ const Contact = () => {
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
                   <h3>+91-8179257250</h3>
-                  <span>Call us: Mon - Fri 9:00 AM - 06:00 PM</span>
+                  <span>Call us: Mon - Sat 24/7 (rotational shifts)</span>
                 </div>
                 <div className="box">
                   <IoLocationOutline size={30} className="icons" />
                   <h3>Bengaluru, karnataka</h3>
-                  <span>HSR Layout ,Benagaluru - 560102</span>
+                  <span>3rd floor, 7th cross, 27th Main, Sector1, HSR Layout, Bangalore-560102</span>
                 </div>
                 {/* <div className='box'>
                   <FiHelpCircle size={30} className='icons' />

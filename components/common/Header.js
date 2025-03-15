@@ -22,7 +22,7 @@ const Header = () => {
           <div className='p-2'>
             <Link href='/'>
               {/* <TitleLogo title='`${tech}`' caption='' className='logomin' /> */}
-              <Image src={logo} alt="Tech Logo" width={150} height={50} priority />
+              <Image src={logo} alt="Tech Logo" width={180} height={50} priority className="" />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
@@ -47,7 +47,10 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className='button-primary'>book a consultation</button>
+            <Link href='/career' className={activeLink == "/career" ? "activeLink" : "none"}>
+              Career
+            </Link>
+            <button className='button-primary' onClick={() => setOpen(!open)}>book a consultation</button>
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

@@ -5,6 +5,7 @@ import {
   AiFillBehanceCircle,
   AiFillInstagram,
   AiFillLinkedin,
+  AiOutlineTwitter,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -32,22 +33,25 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href="/">About agency</Link>
+                <Link href="/agency">About agency</Link>
               </li>
               <li>
-                <Link href="/">Our team</Link>
+                <Link href="/team">Our team</Link>
               </li>
               <li>
-                <Link href="/">Showcase</Link>
+                <Link href="/showcase">Showcase</Link>
               </li>
               <li>
-                <Link href="/">Blog</Link>
+                <Link href="/blogs">Blog</Link>
               </li>
               <li>
                 <Link href="/">Demo design system</Link>
               </li>
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link href="/career">Career</Link>
               </li>
             </ul>
             <ul>
@@ -64,27 +68,33 @@ const Footer = () => {
               <li>
                 <Link href="/">E-Commerce</Link>
               </li>
+              <li>
+                <Link href="/">BPO Services</Link>
+              </li>
+              <li>
+                <Link href="/">Medical Billing</Link>
+              </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className="connect">
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.facebook.com" target="_blank">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
-                    <AiFillBehanceCircle size={25} />
+                  <Link href="https://twitter.com" target="_blank">
+                    <AiOutlineTwitter size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.instagram.com" target="_blank">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.linkedin.com" target="_blank">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
