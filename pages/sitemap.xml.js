@@ -1,29 +1,28 @@
-import { SitemapStream, streamToPromise } from "sitemap";
-import { Readable } from "stream";
+export default function Sitemap() {}
 
 export async function getServerSideProps({ res }) {
-  const links = [
-    { url: "/", changefreq: "daily", priority: 1.0 },
-    { url: "/about", changefreq: "monthly", priority: 0.8 },
-    { url: "/contact", changefreq: "monthly", priority: 0.8 },
-    // Add more pages here
-  ];
-
-  const stream = new SitemapStream({
-    hostname: "https://tech-bridge-master.vercel.app",
-  });
-
-  const xmlString = await streamToPromise(Readable.from(links).pipe(stream));
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://tech-bridge-master.vercel.app/</loc>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>
+    <url>
+      <loc>https://tech-bridge-master.vercel.app/about</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://tech-bridge-master.vercel.app/contact</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  </urlset>`;
 
   res.setHeader("Content-Type", "application/xml");
-  res.write(xmlString);
+  res.write(sitemap);
   res.end();
 
-  return {
-    props: {}, // Required to prevent Next.js errors
-  };
-}
-
-export default function Sitemap() {
-  return null;
+  return { props: {} };
 }
