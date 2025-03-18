@@ -9,6 +9,7 @@ const team = () => {
         <title>Team - TechBridz</title>
       </Head>
       <Team />
+     
     </>
   )
 }
