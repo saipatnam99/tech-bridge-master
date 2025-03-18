@@ -1,153 +1,173 @@
 .team-member-container {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 100vh;
-    background-color: #f7f9fc83;
-    position: relative;
-    padding:5px;
-    gap: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  padding: 5px;
+  padding-top: 40px;
+   min-height: 100vh;
   
-  .profile-card {
-    background: rgb(98, 63, 173);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 500px;
-    width: 100%;
-    position: relative;
-  }
+  background-color: #f7f9fc;
+  gap:10px;
+  max-width: 100%;
  
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+ 
+  }
+}
+
+
+.profile-card {
+  background: rgb(98, 63, 173);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+   position: relative;
+}
+
 .back-button {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(400%);
+  background: #ff9900;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+
+  &:hover {
+    background: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    position: relative;
+    margin-bottom: 15px;
+    transform: translateX(-110%);
+    top: -40px;
+  }
+}
+
+.avatar {
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #ddd;
+  }
+  .badge {
     position: absolute;
-    top: -60px;
+    bottom: -5px;
     left: 50%;
-    transform: translateX(400%);
-    background: #ff9900;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 25px;
+  margin-top: 10px;
+
+  a {
+    color: #bba6a6;
+    transition: 0.3s;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .message-btn,
+  .share-btn {
+    background: #007bff;
     color: white;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 14px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
     border: none;
+
     &:hover {
       background: #0056b3;
     }
+  }
 }
-  .avatar {
-    position: relative;
-    display: inline-block;
-    img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      background: #ddd;
-    }
-    .badge {
-      position: absolute;
-      bottom: -5px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: black;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 15px;
-      font-size: 12px;
-    }
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin: 10px 0;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    font-size: 18px;
-    a {
-      color: #bba6a6;
-      transition: 0.3s;
-      &:hover {
-        color: #007bff;
-      }
-    }
-  }
-  
-  .actions {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    .message-btn, .share-btn {
-      background: #007bff;
-      color: white;
-      padding: 8px 15px;
-      border-radius: 20px;
-      font-size: 14px;
-      cursor: pointer;
-      transition: 0.3s;
-      border: none;
-      &:hover {
-        background: #0056b3;
-      }
-    }
-  }
-  
-  .info {
-    margin-top: 20px;
-    p {
-      font-size: 16px;
-      margin: 5px 0;
-    }
-  }
-  
-  .location {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: rgba(13, 207, 94, 0.74);
-    margin-top: 10px;
-  }
-  
-  .skills {
-    margin-top: 20px;
-    .skill-tags {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 5px;
-    }
-    .skill-tag {
-      background: #e8f0fe;
-      padding: 5px 10px;
-      border-radius: 15px;
-      font-size: 14px;
-      color: #007bff;
-    }
-  }
 
-  .aboutSection, .achievements, .toolsSection, .availability, .contactSection {
-    text-align: left;
-    margin-top: 20px;
-  }
-  .details-section {
-    background: rgba(85, 92, 185, 0.747);
-    padding-left: 30px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 75%;
-  }
-  
-  .details-section h2 {
+.details-section {
+  background: rgba(85, 92, 185, 0.747);
+  padding-left: 20px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  // max-width: 100vh;
+  //max-width: 600px;
+
+  h2 {
     font-size: 22px;
     margin-bottom: 10px;
   }
-  
+}
+
+.skills {
+  margin-top: 20px;
+
+  .skill-tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .skill-tag {
+    background: #e8f0fe;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #007bff;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile-card {
+    max-width: 90%;
+  }
+
+  .details-section {
+    width: 100%;
+    max-width: 90%;
+    padding-left: 5px;
+  }
+}

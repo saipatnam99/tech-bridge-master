@@ -39,6 +39,7 @@ export const teamdata = [
           "Anna Kovalenko is an expert in corporate finance, managing investment strategies and financial planning for sustainable growth.",
         achievements: ["Managed $5M+ investment portfolios", "Optimized company financial structure"],
         tools: ["Excel", "QuickBooks", "Power BI"],
+        skills: ["Interaction Design", "User Research", "Figma"],
         socialLinks: {
           linkedin: "https://linkedin.com/in/annakovalenko",
           twitter: "https://twitter.com/annakovalenko",
@@ -93,6 +94,8 @@ export const teamdata = [
       description:
         "Jessica Brown is a results-driven marketing strategist, helping brands reach their full potential through digital marketing.",
       location: "New York, NY",
+    achievements: ["Managed $5M+ investment portfolios", "Optimized company financial structure"],
+    tools: ["Excel", "QuickBooks", "Power BI"],
       skills: ["SEO", "Social Media Marketing", "Brand Strategy"],
       socialLinks: {
         linkedin: "https://linkedin.com/in/jessicabrown",
