@@ -1,7 +1,7 @@
 import { SitemapStream, streamToPromise } from "sitemap";
 import { Readable } from "stream";
 
-export default async (req, res) => {
+export async function getServerSideProps({ res }) {
   const links = [
     { url: "/", changefreq: "daily", priority: 1.0 },
     { url: "/about", changefreq: "monthly", priority: 0.8 },
@@ -13,8 +13,17 @@ export default async (req, res) => {
     hostname: "https://tech-bridge-master.vercel.app",
   });
 
-  res.writeHead(200, { "Content-Type": "application/xml" });
-
   const xmlString = await streamToPromise(Readable.from(links).pipe(stream));
-  res.end(xmlString.toString());
-};
+
+  res.setHeader("Content-Type", "application/xml");
+  res.write(xmlString);
+  res.end();
+
+  return {
+    props: {}, // Required to prevent Next.js errors
+  };
+}
+
+export default function Sitemap() {
+  return null;
+}

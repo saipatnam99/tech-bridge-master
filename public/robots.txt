@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tech-bridge-master.vercel.app/sitemap.xml
