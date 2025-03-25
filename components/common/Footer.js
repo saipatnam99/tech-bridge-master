@@ -18,17 +18,17 @@ const Footer = () => {
               <TitleLogo title="TechBridz" caption="" className="logobg" />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach us <br /> Monday – Saturday 24/7 (rotational shifts)
               </span>
               <br />
               <br />
-              <h3>+91-8179257250</h3>
+              <h3>+91-7337681324</h3>
               <h3 className="hover: blue">
                 <a href="mailto:Info@techbridz.in">Info@techbridz.in</a>
               </h3>
               <br />
-
-              <button className="button-primary">Request for quote</button>
+{/* 
+              <button className="button-primary">Request for quote</button> */}
             </div>
             <ul>
               <h3>COMPANY</h3>

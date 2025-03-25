@@ -4,7 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
-import logo from "@/assets/images/bridz.jpg"
+import logo from "@/assets/images/tech.jpg"
 import Image from "next/image";
 
 const Header = () => {

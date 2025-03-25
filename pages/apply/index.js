@@ -58,7 +58,7 @@ const ApplyForm = () => {
     formDataToSend.append("noticePeriod", formData.noticePeriod);
     formDataToSend.append("resume", formData.resume);
 
-    const getFormUrl = "https://getform.io/f/bwnnnzwa"; // Replace with your Getform URL
+    const getFormUrl = "https://getform.io/f/bzywpdea"; // Replace with your Getform URL
 
     try {
       const response = await fetch(getFormUrl, {
