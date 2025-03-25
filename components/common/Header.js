@@ -17,13 +17,14 @@ const Header = () => {
 
   return (
     <header>
-      <div className='container'>
-        <div className='p-2'>
+       <div className='logo'>
           <Link href='/'>
             {/* <TitleLogo title='`${tech}`' caption='' className='logomin' /> */}
-            <Image src={logo} alt="Tech Logo" width={120} height={40} priority className="img" />
+            <Image src={logo} alt="Tech Logo" width={150} height={40} priority className="logomin" />
           </Link>
-        </div>
+        
+      <div className='container'>
+       
         <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(false)}>
           <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>Home</Link>
           <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>Agency</Link>
@@ -33,13 +34,16 @@ const Header = () => {
           <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>Blog</Link>
           <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>Contact</Link>
           <Link href='/career' className={activeLink == "/career" ? "activeLink" : "none"}>Career</Link>
-          <button className='button-primary'>
+         
+        </nav>
+        <button className='button-primary login-btn'>
             Login
           </button>
-        </nav>
+       
         <button onClick={() => setOpen(!open)} className="menu-toggle">
           {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
         </button>
+      </div>
       </div>
     </header>
   )

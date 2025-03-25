@@ -19,13 +19,12 @@ const Hero = () => {
           <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className="sub-heading">
-            <span>.</span> <TitleSm title="WEBSITES" />
-            <span>.</span> <TitleSm title="BRANDING" />
-            <span>.</span> <TitleSm title="BPO SERVICES" />
-            <span>.</span> <TitleSm title="MEDICAL BILLING" />
-            <span>.</span> <TitleSm title="DIGITAL MARKETING" />
-            <span>.</span> <TitleSm title="E-PUBLISHING" />
-
+            <TitleSm title="WEBSITES" />
+            <TitleSm title="BRANDING" />
+            <TitleSm title="BPO SERVICES" />
+            <TitleSm title="MEDICAL BILLING" />
+            <TitleSm title="DIGITAL MARKETING" />
+            <TitleSm title="E-PUBLISHING" />
           </div>
         </div>
       </section>

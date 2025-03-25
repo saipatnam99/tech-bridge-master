@@ -25,44 +25,44 @@ export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
-    cover: "../images/web.jpg",
+    cover: "../images/services/web.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "../images/DIGITAL-MARKETING.jpg",
+    cover: "../images/services/DIGITAL-MARKETING.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
     title: "E-Commerce",
-    cover: "../images/e-commerce.avif",
+    cover: "../images/services/e-commerce.avif",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
     title: "Branding & Creative Services",
-    cover: "../images/branding.jpeg",
+    cover: "../images/services/branding.jpeg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
   {
     id: 5,
     title: "Medical Coding & Billing",
-    cover: "../images/medical-coding.jpg",
+    cover: "../images/services/medical-coding.jpg",
     desc: [{ text: "Medical Codings" }, { text: "Medical Related Issues" }, { text: "Medical Billings And Codings" }],
   },
   {
     id: 6,
     title: "BPO Services",
-    cover: "../images/bpo.png",
+    cover: "../images/services/bpo.png",
     desc: [{ text: "BPO Services" }, { text: "we provide BPO Related Issues" }, { text: "Voice and non-voice process" }],
   },
 
   {
     id: 7,
     title: "E-Publishing",
-    cover: "../images/e-publish.webp",
+    cover: "../images/services/e-publish.webp",
     desc: [{ text: "E-Publish" }, { text: "we provide BPO Related Issues" }, { text: "Voice and non-voice process" }],
   },
 
