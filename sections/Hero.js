@@ -24,6 +24,8 @@ const Hero = () => {
             <span>.</span> <TitleSm title="BPO SERVICES" />
             <span>.</span> <TitleSm title="MEDICAL BILLING" />
             <span>.</span> <TitleSm title="DIGITAL MARKETING" />
+            <span>.</span> <TitleSm title="E-PUBLISHING" />
+
           </div>
         </div>
       </section>
